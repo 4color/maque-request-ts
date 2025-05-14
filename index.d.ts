@@ -1,1 +1,1 @@
-declare module '@gisquest/request-ts'
+declare module 'maque-request-ts'
