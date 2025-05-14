@@ -1,0 +1,1 @@
+declare module '@gisquest/request-ts'
