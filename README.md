@@ -1,5 +1,13 @@
 # Vue3版本的Ajax请求包装工具
 
+封装了axios库。
+
+请求后端时，要从sessionStorage、localStorage、Cookies 3个存储中读取Token
+
+Token的名称在 window.tokenName 配置，如果为空，则默认为Token
+
+请求时，携带的header头为上述的名称
+
 ## 1、使用方式
 
 在package.json中引入包 
@@ -43,12 +51,12 @@ function getBeijing() {
 
 
 
-### 2、注意说明
+## 2、注意说明
 
 该库只依赖于Vue3,Element-Plus，所以项目必须要引入Element-Plus，并在Main.ts或main.js中进行初始化
 
 
 
+## 3、Git地址
 
-
-
+https://github.com/4color/maque-request-ts

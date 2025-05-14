@@ -17,6 +17,10 @@
     "README.md",
     "index.d.ts"
   ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/4color/maque-request-ts"
+  },
   "scripts": {
     "dev": "vite",
     "build": "vue-tsc -b && vite build",
